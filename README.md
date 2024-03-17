@@ -53,7 +53,7 @@ TravelCompanion/
 ## Despliegue
 
 
-## Creación de Knowledge Bases - Bredrock
+## Creación de Knowledge Bases - Amazon  Bredrock
 Los pasos para crear una Knowledge base de Amazon Bedrock son los siguientes:
 1. Origen de Knowledge Bases
    a. Ve a Amazon S3 y crea un nuevo Bucket con el nombre de kb-tourist-places-1
@@ -72,7 +72,7 @@ Los pasos para crear una Knowledge base de Amazon Bedrock son los siguientes:
 NOTA: repite este proceso para la creación del segundo Knowledge base
  
    
-## Creación de Agente de Bedrock
+## Creación de Agente de Amazon Bedrock
 Los pasos para crear un agente en Amazon Bedrock son los siguientes:
 1. Ve a Amazon Bedrock -->  Agents
 2. Selecciona Crear Agente
