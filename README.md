@@ -30,16 +30,25 @@ Este proyecto combina el poder de los Agents de Bedrock y Lambda Functions para 
 ## Estructura de Archivos
 
 Breve explicación de la estructura del repositorio, incluyendo los directorios principales y archivos clave.
-TravelCompanion
-├── bedrock_bnowledge_base # Scripts y configuración de los Agents de Bedrock
+```plaintext
+TravelCompanion/
+├── data 
 │ ├── Tourist Places.xlsx # Base de conocimientos de lugares turísticos en LATAM
 │ └── worldcities.csv # Base de conocimientos con latitudes y longitudes
 ├── IaC # Scripts de configuración del Agente de Bedrock
 ├── src 
-│ └── function # Contiene las funciones lambda del proyecto
+│ └── function
 │  └── index.js # Función Lambda principal para obtener el clima
 │  └── OpenAPI.json # Contiene la definicion del metodo que devolverá la longitud y latencia, esta definicion el agente lo utiliza para saber como obtener la latitud y longitud de una ciudad.
 └── README.md # Documentación del proyecto
+```
+
+`data/`: Este directorio contiene archivos esenciales para el funcionamiento del proyecto, como bases de conocimientos y recursos de datos, incluyendo información geográfica y de lugares turísticos.\
+`IaC/`: Infraestructura como Código. Aquí se almacenan scripts y configuraciones necesarias para desplegar y mantener la infraestructura tecnológica del proyecto, facilitando su replicación y gestión.\
+`src/`: El directorio de código fuente alberga toda la lógica y funciones del proyecto, organizadas de la siguiente manera:\
+`function/`: Contiene las funciones lambda, siendo index.js la función principal utilizada para obtener información del clima.\
+`OpenAPI.json`: Este archivo define la interfaz de programación de aplicaciones (API) que el proyecto expone, especificando cómo se pueden obtener datos como la latitud y longitud de ciudades.\
+`README.md:` Archivo de documentación que ofrece una visión general del proyecto, guías de instalación y uso, y cualquier otra información relevante para desarrolladores y usuarios.
 
 ## Despliegue
 
@@ -81,7 +90,7 @@ Este proyecto, de naturaleza educativa y con licencia libre, está abierto a con
 Este proyecto se distribuye bajo una licencia libre, permitiendo su uso y modificación para cualquier propósito, siguiendo los términos establecidos.
 
 ## Agradecimientos
-AerisWeather API por proveer datos meteorológicos fiables.
+AerisWeather API por proveer datos meteorológicos fiables.\
 [Marcia Villalba y su canal de Youtube: FooBar Serverless], video: (https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2)https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2
 
 
