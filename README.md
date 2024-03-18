@@ -57,7 +57,7 @@ TravelCompanion/
 
 
 ## Arquitectura
-![Travel Companion](https://github.com/[hsaenzG]/TravelCompanion-With-Serverless-And-Bedrock/images/TravelCompanion.drawio.png)
+![Travel Companion](https://github.com/hsaenzG/TravelCompanion-With-Serverless-And-Bedrock/blob/main/images/TravelCompanion.drawio.png)
 
 ## Creación de Knowledge Bases - Amazon  Bredrock
 Los pasos para crear una Knowledge base de Amazon Bedrock son los siguientes:
@@ -75,8 +75,8 @@ Los pasos para crear una Knowledge base de Amazon Bedrock son los siguientes:
   f. Prueba tu Knowledge base Selecciona el modelo Anthropic - Claude 2.1 y Aplicar
   g. Valida los registros de tu Knowledge base
 
-Como funcionan las Bases de Conocimiento?
-![Knowledbase](https://github.com/[hsaenzG]/TravelCompanion-With-Serverless-And-Bedrock/images/TravelCompanion-KB.drawio.png)
+Como funcionan las Bases de Conocimiento?\
+![Knowledbase](https://github.com/hsaenzG/TravelCompanion-With-Serverless-And-Bedrock/blob/main/images/TravelCompanion-KB.drawio.png)
 
 NOTA: repite este proceso para la creación del segundo Knowledge base
  
