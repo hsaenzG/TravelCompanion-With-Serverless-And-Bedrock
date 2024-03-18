@@ -100,7 +100,7 @@ Este proyecto se distribuye bajo una licencia libre, permitiendo su uso y modifi
 
 ## Agradecimientos
 AerisWeather API por proveer datos meteorológicos fiables.\
-[Marcia Villalba y su canal de Youtube: FooBar Serverless], video: (https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2)https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2
+Marcia Villalba y su canal de Youtube: FooBar Serverless, video: (https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2)https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2
 
 
 
