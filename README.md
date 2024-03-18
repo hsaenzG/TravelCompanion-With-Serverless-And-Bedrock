@@ -2,6 +2,7 @@
 
 Este proyecto combina el poder de los Agents de Bedrock y Lambda Functions para sugerir lugares turísticos en Latinoamérica basados en el clima actual de ciudades. Analiza las condiciones meteorológicas en tiempo real para ofrecer destinos óptimos a visitar, mejorando la experiencia de viaje. Es ideal para aplicaciones de viaje y planificación.
 
+
 ## Características
 
 - **Consulta del Clima en Tiempo Real**: Utiliza una función lambda escrita en JavaScript para llamar a la API de AerisWeather y obtener el clima actual de ciudades en LATAM.
@@ -33,9 +34,11 @@ Breve explicación de la estructura del repositorio, incluyendo los directorios 
 ```plaintext
 TravelCompanion/
 ├── data 
-│ ├── Tourist Places.xlsx # Base de conocimientos de lugares turísticos en LATAM
+│ ├── OpenAPI.json # Definición de API
+│ └── Tourist Places.xlsx # Base de conocimientos de lugares turísticos en LATAM
 │ └── worldcities.csv # Base de conocimientos con latitudes y longitudes
-├── IaC # Scripts de configuración del Agente de Bedrock
+├── iac # Scripts de configuración del Agente de Bedrock
+├── images # Diagramas de Arquitectura
 ├── src 
 │ └── function
 │  └── index.js # Función Lambda principal para obtener el clima
@@ -44,7 +47,7 @@ TravelCompanion/
 ```
 
 `data/`: Este directorio contiene archivos esenciales para el funcionamiento del proyecto, como bases de conocimientos y recursos de datos, incluyendo información geográfica y de lugares turísticos.\
-`IaC/`: Infraestructura como Código. Aquí se almacenan scripts y configuraciones necesarias para desplegar y mantener la infraestructura tecnológica del proyecto, facilitando su replicación y gestión.\
+`iac/`: Infraestructura como Código. Aquí se almacenan scripts y configuraciones necesarias para desplegar y mantener la infraestructura tecnológica del proyecto, facilitando su replicación y gestión.\
 `src/`: El directorio de código fuente alberga toda la lógica y funciones del proyecto, organizadas de la siguiente manera:\
 `function/`: Contiene las funciones lambda, siendo index.js la función principal utilizada para obtener información del clima.\
 `OpenAPI.json`: Este archivo define la interfaz de programación de aplicaciones (API) que el proyecto expone, especificando cómo se pueden obtener datos como la latitud y longitud de ciudades.\
@@ -52,6 +55,9 @@ TravelCompanion/
 
 ## Despliegue
 
+
+## Arquitectura
+![Travel Companion](https://github.com/[hsaenzG]/TravelCompanion-With-Serverless-And-Bedrock/images/TravelCompanion.drawio.png)
 
 ## Creación de Knowledge Bases - Amazon  Bredrock
 Los pasos para crear una Knowledge base de Amazon Bedrock son los siguientes:
@@ -68,6 +74,9 @@ Los pasos para crear una Knowledge base de Amazon Bedrock son los siguientes:
   e. Selecciona crear (este proceso puede tomar varios minutos debido a que Amazon Bedrock crea un almacén vectorial de Amazon OpenSearch
   f. Prueba tu Knowledge base Selecciona el modelo Anthropic - Claude 2.1 y Aplicar
   g. Valida los registros de tu Knowledge base
+
+Como funcionan las Bases de Conocimiento?
+![Knowledbase](https://github.com/[hsaenzG]/TravelCompanion-With-Serverless-And-Bedrock/images/TravelCompanion-KB.drawio.png)
 
 NOTA: repite este proceso para la creación del segundo Knowledge base
  
