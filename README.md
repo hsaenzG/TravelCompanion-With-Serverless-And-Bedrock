@@ -1,6 +1,6 @@
 # TravelCompanion-With-Serverless-And-Bedrock
 
-Este proyecto combina el poder de los Agents de Bedrock y Lambda Functions para sugerir lugares turísticos en Latinoamérica basados en el clima actual de ciudades. Analiza las condiciones meteorológicas en tiempo real para ofrecer destinos óptimos a visitar, mejorando la experiencia de viaje. Es ideal para aplicaciones de viaje y planificación.
+Este proyecto combina el poder de los Agents de Bedrock y Lambda Functions para sugerir lugares turísticos seguros para mujeres en Latinoamérica basados en el clima actual de ciudades. Analiza las condiciones meteorológicas en tiempo real para ofrecer destinos óptimos a visitar, mejorando la experiencia de viaje. Es ideal para aplicaciones de viaje y planificación.
 
 
 ## Características
@@ -90,7 +90,7 @@ Los pasos para crear un agente en Amazon Bedrock son los siguientes:
 5. Crea una acción tipo lambda en donde selecciones la lambda creada en este proyecto
 6. Selecciona la definicion OpenAPI que se ecnuentra en el Bucket de S3 kb-worldcities-1
 7. Crear
-8. Prueba tu agente, ingresa el nombde de una ciudad de LATAM y el agente te devolverá una lista de recomendaciones de lugares turisticos a visitar de acuerdo al clima del dia de la ciudad solicitada.
+8. Prueba tu agente, ingresa el nombre de una ciudad de LATAM y el agente te devolverá una lista de recomendaciones de lugares turisticos a visitar de acuerdo al clima del dia de la ciudad solicitada.
 
 ## Uso
 Este proyecto, de naturaleza educativa y con licencia libre, está abierto a contribuciones.
@@ -99,6 +99,7 @@ Este proyecto, de naturaleza educativa y con licencia libre, está abierto a con
 Este proyecto se distribuye bajo una licencia libre, permitiendo su uso y modificación para cualquier propósito, siguiendo los términos establecidos.
 
 ## Agradecimientos
+Ana Luiza Cunha - AWS Senior Developer Advocate, Por motivarme y por enseñarme los conceptos de IA que fueron esenciales para este aporte. (https://www.linkedin.com/in/analuizacunha/) \
 AerisWeather API por proveer datos meteorológicos fiables.\
 Marcia Villalba y su canal de Youtube: FooBar Serverless, video: (https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2)https://youtu.be/P9n8BE693go?si=ADtt9RPXWO2Di9Z2
 
