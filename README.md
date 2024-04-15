@@ -53,9 +53,6 @@ TravelCompanion/
 `OpenAPI.json`: Este archivo define la interfaz de programación de aplicaciones (API) que el proyecto expone, especificando cómo se pueden obtener datos como la latitud y longitud de ciudades.\
 `README.md:` Archivo de documentación que ofrece una visión general del proyecto, guías de instalación y uso, y cualquier otra información relevante para desarrolladores y usuarios.
 
-## Despliegue
-
-
 ## Arquitectura
 ![Travel Companion](https://github.com/hsaenzG/TravelCompanion-With-Serverless-And-Bedrock/blob/main/images/TravelCompanion.drawio.png)
 
