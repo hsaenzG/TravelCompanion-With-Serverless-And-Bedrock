@@ -6,7 +6,7 @@ Este proyecto combina el poder de los Agents de Bedrock y Lambda Functions para 
 ## Características
 
 - **Consulta del Clima en Tiempo Real**: Utiliza una función lambda escrita en JavaScript para llamar a la API de AerisWeather y obtener el clima actual de ciudades en LATAM.
-- **Recomendaciones Personalizadas**: Basado en el clima y dos Knowledge Bases de Bedrock de lugares turísticos y latitud/longitud de ciudades, sugiere destinos turísticos óptimos.
+- **Recomendaciones Personalizadas**: Basado en el clima y dos Knowledge Bases de Bedrock de lugares turísticos y latitud/longitud de ciudades, sugiere destinos turísticos seguros para que chicas que viajan solas.
 - **Integración con Bedrock**: Utiliza un Agent de Bedrock potenciado con Titan Embeddings G1 - Text y anthropic.claude-v2 para manejar la lógica de selección de destinos, aprovechando bases de conocimientos especializadas.
 
 ## Pre-requisitos
